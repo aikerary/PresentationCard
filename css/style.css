@@ -7,5 +7,38 @@
 body {
   min-height: 100vh;
   display: -webkit-box;
-  background-color: lightgray;
+  background-color: white;
 }
+
+.card{
+    width: 770px;
+    height: 221px;
+    background-color: white;
+    margin: auto;
+    /* box shadow */
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+    border-radius: 5px;
+}
+
+.card .main{
+    height: 70%;
+}
+
+.card .main .logo{
+    width: 20%;
+}
+
+/* Section of End */
+
+.card .end{
+    height: 30%;
+}
+
+.card .end .separator{
+    width: 100%;
+    height: 5px;
+    background-color: lightblue;
+}
+
+
+
