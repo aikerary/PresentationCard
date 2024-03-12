@@ -96,4 +96,35 @@ p {
 .card .end {
   height: 25%;
   border-top: 5px solid rgb(119, 193, 218);
+  position: relative;
+}
+
+.card .end .score{
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+.card .end .score p{
+    display: inline-block;
+    font-size: 17px;
+}
+
+.card .end .score p::before{
+    font-family: "iconitos";
+    content: "\ea1c";
+    font-size: 17px;
+    color: green;
+    display: inline-block;
+    transform: rotate(270deg);
+    margin-right: 10px;
+}
+
+.card .end .score p::after{
+    font-family: "iconitos";
+    content: "\ea1c";
+    font-size: 17px;
+    color: red;
+    display: inline-block;
+    transform: rotate(90deg);
+    margin-left: 10px;
 }
