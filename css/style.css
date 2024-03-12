@@ -102,6 +102,7 @@ p {
 .card .end .score{
     margin-left: 20px;
     margin-top: 15px;
+    display: inline-block;
 }
 
 .card .end .score p{
@@ -127,4 +128,12 @@ p {
     display: inline-block;
     transform: rotate(90deg);
     margin-left: 10px;
+}
+
+.card .end .rating{
+    display: inline-block;
+}
+
+.card .end .rating p{
+    display: inline-block;
 }
