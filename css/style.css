@@ -44,8 +44,44 @@ p{
     margin-top: 10px;
 }
 
+.card .main .info .authory{
+    margin-top: 10px;
+}
+
+.card .main .info .authory .author{
+    color: red;
+    /* Underlined */
+    text-decoration: underline;
+}
+
 .card .main .logo{
     width: 20%;
+}
+
+.card .main .info .tagstime{
+    margin-top: 35px;
+}
+
+.card .main .info .tagstime .tags{
+    /* Get without style the ul list */
+    list-style: none;
+    display: inline-block;
+}
+
+.card .main .info .tagstime .tags li{
+    display: inline-block;
+    background-color: darkcyan;
+    color: white;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.card .main .info .tagstime p{
+    display: inline-block;
+}
+
+.card .main .info .tagstime p .number{
+    font-weight: bold;
 }
 
 /* Section of End */
