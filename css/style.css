@@ -60,6 +60,7 @@ p{
 
 .card .main .info .tagstime{
     margin-top: 35px;
+    width: 100%;
 }
 
 .card .main .info .tagstime .tags{
@@ -78,6 +79,7 @@ p{
 
 .card .main .info .tagstime p{
     display: inline-block;
+    margin-left: 190px;
 }
 
 .card .main .info .tagstime p .number{
